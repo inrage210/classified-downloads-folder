@@ -1,14 +1,13 @@
 import classified_directory as cd
 import time
 
-# CHANGE YOUR DOWNLOAD FOLDERS HERE !!
+# CHANGE YOUR DOWNLOADS DIRECTORY HERE !!
 source = r'C:\Users\sustainability\Downloads'
 classified_app = cd.ClassifiedDirectories(source)
 
 print('reading downloads directory...'.title())
 print('check your important folders and files!'.title())
 time.sleep(2)
-
 
 result = classified_app.read_dir()
 folders_deleted = result[0] - len(classified_app.primary_downloads_folders)
