@@ -1,5 +1,5 @@
 # classified-downloads-folder
-script to make your downloads directory become clean and tidy automatically
+Script to make your downloads directory become clean and tidy automatically
 
 Downloads folder trees should be existed => Music, Video, Compressed, Pictures, Programs, Others, Documents
 
